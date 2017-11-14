@@ -48,10 +48,11 @@ $( "#choice1" ).click(function() {
 					defenderHP=defenderHP-yourAttack;
 					yourAttack=yourAttack+yourAttack;
 					$("#defenderHP").html(defenderHP);
-				}
-				else
-				{
-					hasDefender = false;
+					if (defenderHP < 0)
+					{
+						console.log("hasDefenderisnowFalse");
+						hasDefender = false;
+					}
 				}
 			});
 		}
