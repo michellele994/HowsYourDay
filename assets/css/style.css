@@ -1,5 +1,9 @@
 body {
 	margin-top: 20px;
+	font-size: 14px;
+}
+button {
+	padding: 5px;
 }
 .wrapping {
 	width: 700px;
@@ -15,6 +19,10 @@ body {
 	border-style: solid;
 	border-color: black;
 	border-width: 1px;
+}
+.heading {
+	font-size: 16px;
+	font-weight: bold;
 }
 #startbox {
 	position: absolute;
@@ -36,33 +44,36 @@ body {
 }
 #choice1 {
 	position: absolute;
-	left: 10px;
+	left: 5px;
 	z-index: 999;
 }
 
 #choice2 {
 	position: absolute;
-	left: 175px;
+	left: 180px;
 	z-index: 999;
 }
 
 #choice3 {
 	position: absolute;
-	left: 350px;
+	left: 355px;
 	z-index: 999;
 }
 
 #choice4 {
 	position: absolute;
-	left: 525px;
+	left: 530px;
 	z-index: 999;
+}
+
+#game{
+	margin: 15px;
 }
 #yourcharacterrow{
 	position: absolute;
 	width: 100%;
 	height: 150px;
 	text-align: left;
-	margin: 10px;
 }
 #yourcharacter{
 	left: 0px;
@@ -73,26 +84,28 @@ body {
 	width: 100%;
 	height: 150px;
 	text-align: left;
-	top:150px;
-	margin:10px;
+	top:155px;
 }
 #enemy1{
 	display: inline-block;
+	margin:-right: 20px;
 }
 #enemy2{
 	display: inline-block;
-
+	margin-left: 20px;
+	margin:-right: 20px;
 }
 #enemy3{
 	display: inline-block;
+	margin-left: 20px;
+	margin:-right: 20px;
 }
 #fightsection{
 	position: absolute;
 	width: 100%;
 	height: 150px;
 	text-align: left;
-	top: 300px;
-	margin: 10px;
+	top: 320px;
 }
 #fightingtext{
 	position: absolute;
