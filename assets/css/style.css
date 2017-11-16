@@ -30,9 +30,18 @@ button {
 	left: 10px;
 	z-index: 998;
 }
+#starttitle{
+	position: absolute;
+	top: 80px;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 44px;
+	z-index:999;
+}
 #starttext{
 	position: absolute;
-	top: 10px;
+	top: 300px;
 	width: 100%;
 	text-align: center;
 	font-size: 36px;
@@ -44,13 +53,13 @@ button {
 }
 #choice1 {
 	position: absolute;
-	left: 5px;
+	left: 20px;
 	z-index: 999;
 }
 
 #choice2 {
 	position: absolute;
-	left: 180px;
+	left: 190px;
 	z-index: 999;
 }
 
@@ -62,7 +71,7 @@ button {
 
 #choice4 {
 	position: absolute;
-	left: 530px;
+	left: 520px;
 	z-index: 999;
 }
 
@@ -112,4 +121,9 @@ button {
 	text-align: left;
 	bottom: 50px;
 	left:200px;
+}
+#restartsection{
+	position: absolute;
+	bottom: 25px;
+	right: 20px;
 }
