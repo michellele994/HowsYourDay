@@ -1,9 +1,13 @@
 body {
 	margin-top: 20px;
 	font-size: 14px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 button {
 	padding: 5px;
+}
+h6 {
+	font-weight: bold;
 }
 .wrapping {
 	width: 700px;
@@ -14,7 +18,6 @@ button {
 	position:relative;
 	width: 700px;
 	height: 500px;
-	padding: 0;
 	background-color: rgb(153,217,234);
 	border-style: solid;
 	border-color: black;
@@ -76,7 +79,7 @@ button {
 }
 
 #game{
-	margin: 15px;
+	padding: 25px 15px 15px 15px;
 }
 #yourcharacterrow{
 	position: absolute;
@@ -93,7 +96,7 @@ button {
 	width: 100%;
 	height: 150px;
 	text-align: left;
-	top:155px;
+	top:175px;
 }
 #enemy1{
 	display: inline-block;
@@ -114,13 +117,23 @@ button {
 	width: 100%;
 	height: 150px;
 	text-align: left;
-	top: 320px;
+	top: 340px;
 }
-#fightingtext{
+#attacktext{
 	position: absolute;
+	width: 400px;
 	text-align: left;
-	bottom: 50px;
+	top: 0px;
 	left:200px;
+	line-height: 20px;
+}
+#countertext{
+	position: absolute;
+	width: 400px;
+	text-align: left;
+	top: 75px;
+	left: 200px;
+	line-height: 20px;
 }
 #restartsection{
 	position: absolute;
