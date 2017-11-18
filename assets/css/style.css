@@ -6,8 +6,15 @@ body {
 button {
 	padding: 5px;
 }
+h1 {
+	font-size: 40px;
+	padding-top: 50px;
+}
 h6 {
 	font-weight: bold;
+}
+p{
+	line-height: 25px;
 }
 .wrapping {
 	width: 700px;
@@ -18,7 +25,8 @@ h6 {
 	position:relative;
 	width: 700px;
 	height: 500px;
-	background-color: rgb(153,217,234);
+	background-image: url("../images/gamebg.png");
+	background-repeat: repeat;
 	border-style: solid;
 	border-color: black;
 	border-width: 1px;
@@ -90,6 +98,19 @@ h6 {
 #yourcharacter{
 	left: 0px;
 	display: inline-block;
+}
+#instruction{
+	position: absolute;
+	background-color: rgb(255, 223, 234);
+	top: 0px;
+	left: 250px;
+	padding: 10px;
+	width: 400px;
+	height: 140px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	text-align: center;
 }
 #enemiesavailable{
 	position: absolute;

@@ -10,7 +10,10 @@
 <body>
 	<div class="wrapping">
 	<!-- Whole game starts here -->
+	How's your day?
+	<!-- This wraps the game -->
 		<div class="gamewrapping">
+			<!-- This "#startbox" div is the box at the very beginning that allows the player to choose a character to start with -->
 			<div id="startbox">
 				<img src="assets/images/startbox.png">
 				<div id = "starttitle">
@@ -38,7 +41,9 @@
 					</button>
 				</div>
 			</div>
+			<!-- #game is where our actual game lays -->
 			<div id="game">
+				<!-- Top part for the player's chosen character -->
 				<div id="yourcharacterrow">
 					<div class="heading">Your Character</div>
 					<br>
@@ -47,7 +52,13 @@
 						<br>NAME
 						<br>HP:
 					</div>
+					<!-- Instructions -->
+					<div id="instruction">
+						<h6>Instructions</h6>
+						<p>You must go through the day in the life of your chosen character. Whether you like it or not, you are forced to go through the day dealing with annoying day-to-day situations. You only have a certain amount of energy (HP). Choose your activities wisely to successfully complete the day! Good luck!</p>
+					</div>
 				</div>
+				<!-- Middle section for player to select their enemies -->
 				<div id="enemiesavailable">
 					<div class="heading">Enemies Available</div>
 					<br>
@@ -73,6 +84,7 @@
 						</button>
 					</div>
 				</div>
+				<!-- #fightingsection is where the attack specs are at -->
 				<div id="fightsection">
 					<div class="heading">Defender</div>
 					<button id="attack">Where should we start? (Pick an enemy above to begin)</button>
@@ -80,6 +92,7 @@
 					<div id="attacktext"></div>
 					<div id="countertext"></div>
 				</div>
+				<!-- Restart button (refreshes the page) -->
 				<div id="restartsection">
 					<button id="restartbtn">Restart</button>
 				</div>
